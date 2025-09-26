@@ -1,0 +1,52 @@
+/*Tira as margens brancas dadas pelo navegador*/
+
+* /*o asterístico significa que a edição é para todo o código*/{
+  margin: 0;
+  
+}
+
+/*Estilização do cabeçalho*/
+header {
+  text-align: center;
+  background: radial-gradient(rgb(228, 140, 154), rgb(146, 166, 231), rgb(27, 20, 88));
+  color: white;
+  padding: 20px; /*deixa a fonte com um espaço de 20px da borda inferior*/
+  
+
+}
+
+
+/*Estilização da fonte no cabeçalho*/
+h1 {
+  font-size: 3em;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Está definindo o fundo da página*/
+
+
+body { 
+    background-color: rgb(209, 216, 218);
+   
+}
+
+nav /*afeta o conteiner que segura os links*/{
+  background-color: rgb(255, 255, 255);
+  display: flex; /*organiza os links horizontalmente*/
+  gap: 30px; /*espaça os links*/
+  box-shadow: 0px 3px 6px rgb(0, 0, 0, 0.1); /*acrescenta uma sombra, dando profundidade a barra de navegação*/
+  padding: 20px;
+  border-radius: 10px; /*arredonda a barra de navegação*/
+
+}
+
+nav a /*estiliza especificamente os links*/{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transition: color 0.3s;
+  font-weight: bold; /*define a fonte em negrito*/
+}
+
+nav a:hover {
+  color: #5c34c9;
+}
